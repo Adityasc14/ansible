@@ -1,0 +1,22 @@
+- name: package install using loop
+  hosts: all
+  become: yes
+  tasks:
+
+   - name: install using loop
+     state: present
+     debug:
+     msg: "{(packages)}"
+     loop:
+         - tree
+         - nginx1
+   - loop:
+         - tree
+         - nginx1
+         - httpd
+  - name: install using loop
+     state: present
+     debug:
+     msg: "{(packages)}"        
+
+         

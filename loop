@@ -1,4 +1,4 @@
-- name: package install using loop
+- name: install packages
   hosts: all
   become: yes
   tasks:
@@ -12,11 +12,10 @@
          - nginx1
    - loop:
          - tree
-         - nginx1
+         - ngin name: package install using loopx1
          - httpd
-  - name: install using loop
+   - name:  install using loop
      state: present
      debug:
      msg: "{(packages)}"        
-
-         
+         msg: "{(packages)}

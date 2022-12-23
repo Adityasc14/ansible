@@ -16,3 +16,7 @@
       service:
         name: "httpd"
         state: "enable"
+    - name: start Apache server
+      service:
+        name: "httpd"
+        state: "enable"

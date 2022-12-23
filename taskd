@@ -1,0 +1,18 @@
+- name: install httpd package
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: install packages
+      yum:
+        name: "httpd"
+        state : "present"
+
+    - name: start Apache server
+      service:
+        name: "httpd"
+        state: "enable"
+
+    - name: start Apache server
+      service:
+        name: "httpd"
+        state: "enable"

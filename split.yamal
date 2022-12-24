@@ -1,9 +1,10 @@
-  - name: "tomcat"
+  - name: " install apache tomcat "
     hosts: all
     become: yes
     tasks:
 
-         - name : "install tomcat"
-           vars: 
-           tomcat_url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz 
-           msg: "TOMCAT"
+    - name : "install tomcat"
+      vars: 
+      tomcat_url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz 
+      debug:
+      msg: "TOMCAT"

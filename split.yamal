@@ -3,7 +3,7 @@
   host: all
   tasks:
     - name: split folder tomcat
-      vars: 
+      vars: null
       tomcat_: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz
       debug: null
-      msg: " {(tomcat_url)} "
+      msg: TOMCAT

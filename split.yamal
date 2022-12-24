@@ -1,5 +1,5 @@
 ---
-  name: "split tomcat URL"
+  Name: "split tomcat URL"
   hosts: all
   become: yes
   tasks:

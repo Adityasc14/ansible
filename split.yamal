@@ -1,6 +1,6 @@
 ---
 - name: split tomcat URL
-  host: all
+  hosts: all
   tasks:
     - name: split folder tomcat
       vars: null

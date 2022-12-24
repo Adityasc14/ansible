@@ -1,5 +1,5 @@
 - name: Install Apache tomcat
-  hosts: webserver
+  hosts: all
   become: true
 
      - name split tomcat 

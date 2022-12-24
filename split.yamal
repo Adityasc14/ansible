@@ -4,8 +4,8 @@
   become: yes
   tasks:
 
- -name : "split"
-  vars: 
-  tomcat_url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz
-  debug: null
-  msg: TOMCAT
+ - name : "split"
+   vars: 
+   tomcat_url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz
+   debug: null
+   msg: TOMCAT

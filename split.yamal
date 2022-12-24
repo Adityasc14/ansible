@@ -1,9 +1,9 @@
 - name: split tomcat url
   host: all
   tasks:
-
-   -name:split folder name
-    vars:
-    tomcat_url:https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz
-    debug:
-    msg: "{(tomcat_url)}"
+ 
+ -name: split folder name
+  vars:
+  tomcat_url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz
+  debug:
+  msg: "{(tomcat_url)}"

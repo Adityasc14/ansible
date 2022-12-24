@@ -1,9 +1,9 @@
 ---
-- name: split tomcat URL
+- name: "split tomcat URL"
   hosts: all
   tasks:
-    - name: split folder tomcat
+    - name: "split folder tomcat"
       vars: null
-      tomcat_: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz
+      tomcat_url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70-fulldocs.tar.gz
       debug: null
       msg: TOMCAT

@@ -1,0 +1,5 @@
+- name: my first testing YAML playbook,
+  hosts: demo
+  become: yes
+  connection: ssh
+  gather_facts: yes

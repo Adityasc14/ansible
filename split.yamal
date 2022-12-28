@@ -1,7 +1,7 @@
   - name: " install apache tomcat "
     hosts: all
     become: yes
-    tasks:
+    
 
     - name  "install tomcat"
       vars 
